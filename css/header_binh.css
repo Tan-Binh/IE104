@@ -6,7 +6,7 @@ header .header-top {
     align-items: center;
 }
     header .header-top .contact-info {
-        padding-left: 10%; 
+        padding-left: 5%; 
     }
         header .header-top .contact-info li {
             padding-right: 15px;
@@ -18,7 +18,7 @@ header .header-top {
                 font-size: 15px;
             }
     header .header-top .login-info  {
-        padding-right: 13%; 
+        padding-right: 8%; 
     }      
         header .header-top .login-info li {
             padding-left: 30px;
@@ -40,13 +40,13 @@ header .header-bottom nav {
     align-items: center;
 }
     header .header-bottom nav .logo {
-        padding-left: 10%; 
+        padding-left: 5%; 
     }
         header .header-bottom nav .logo img {
             width: 55%; 
         }
     header .header-bottom nav ul {
-        padding-right: 13%;
+        padding-right: 8%;
         display: flex;
     }
         header .header-bottom nav ul li {

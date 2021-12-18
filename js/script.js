@@ -1,0 +1,6 @@
+function ham()
+{
+    alert(
+        'hello'
+    )
+}

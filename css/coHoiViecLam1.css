@@ -220,6 +220,139 @@ section::after {
                             padding-right: 10px;
                         }
 
+            .post .post-content-wrapper .post-content .comment-wrapper .items-title .title {
+                margin: 65px 0 0; 
+                color: #333146;
+                font-size: 40px;
+                font-weight: 700;
+            }
+            .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper {
+                padding-top: 40px;
+                padding-bottom: 40px; 
+                border-bottom: 1px solid rgba(47, 47, 47, 0.05);
+            }
+                .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper:last-child {
+                    padding-bottom: 0px; 
+                    border-bottom: 1px solid rgba(47, 47, 47, 0);
+                }
+                .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .reply-comment-text {
+                    padding-left: 50px !important;
+                    padding-top: 30px !important; 
+                    box-sizing: border-box;
+                }
+                .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list {
+                    width: 100%; 
+                    background: #ffffff;
+                    padding: 0;
+                    border-radius: 0;
+                    align-items: center;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                    .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-img {
+                        width: 55px;
+                        height: 55px;
+                    }
+                        .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-img img {
+                            border-radius: 50%;
+                        }
+                    .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text {
+                        width: 87%;
+                    }
+                        .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text .author-info {
+                            line-height: 14px;
+                            display: flex;
+                            justify-content: space-between; 
+                        }
+                            .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text .author-info .author-name a {
+                                margin-right: 25px;
+                                text-decoration: none;
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: #333146;
+                            }
+                            .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text .author-info .author-name span {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                color: #6a7a83; 
+                            }
+                            .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text .author-info .reply-comment a {
+                                margin: 0 0 0 30px;
+                                text-decoration: none;
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: #092ace;
+                                transition: all 0.3s ease-in-out;
+                            }
+                                .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text .author-info .reply-comment a:hover {
+                                    color: #ff5a2c;
+                                }
+                        .post .post-content-wrapper .post-content .comment-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin: 19px 0 0;
+                            color: #6a7a83;
+                        }
+            .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper {
+                margin-top: 50px; 
+            }
+                .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper .items-title {
+                        margin-bottom: 30px; 
+                    }
+                    .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper .items-title .title {
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: #333146;
+                        margin-bottom: 10px; 
+                    }
+            .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group {
+                margin-bottom: 15px;
+            }
+                .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group input {
+                    width: 50%;
+                    height: 46px;
+                }
+                .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group textarea {
+                    width: 90%;
+                    height: 150px;
+                }
+                .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group input,
+                .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group textarea {
+                    border: 1px solid #d7d7d7;
+                    border-radius: 0px;
+                    padding: 0px 20px;
+                    transition: all 0.5s ease 0s;
+                    color: #333146;
+                    font-size: 14px;
+                    font-weight: 400;
+                    outline: none;
+                    box-shadow: none;
+                }
+                    .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group input:focus,
+                    .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .form-group textarea:focus {
+                        border: 1px solid #333146;
+                        color: #333146; 
+                    }
+                .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .submit-btn button {
+                    height: 60px;
+                    padding: 0 40px;
+                    margin-top: 30px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    background: #ff5a2c;
+                    text-transform: uppercase;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: #ffffff;
+                    transition: all 0.3s ease-in-out;
+                }
+                    .post .post-content-wrapper .post-content .comment-wrapper .leave-comment-wrapper form .submit-btn button:hover {
+                        background: #092ace;
+                    }
+
 .recent-post-wrapper {
     width: 25%;
     margin: 35px 0;

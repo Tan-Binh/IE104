@@ -128,7 +128,8 @@ section::after {
             padding-top: 40px;
         }
             .post .post-content-wrapper .post-content p {
-                margin-bottom: 25px;
+                margin-top: 10px;
+                line-height: 25px;
                 font-weight: 300;
             }
                 .post .post-content-wrapper .post-content p:last-child {
@@ -139,9 +140,11 @@ section::after {
                 font-size: 40px;
                 font-weight: 700;
             }
+            .post .post-content-wrapper .post-content h2 {
+                margin-top: 20px;
+            }
             .post .post-content-wrapper .post-content .quite-speech {
                 position: relative;
-                padding: 25px 0px;
                 padding-left: 40px;
                 color: #333146;
                 font-size: 20px;
@@ -159,14 +162,7 @@ section::after {
                 }
             .post .post-content-wrapper .post-content .banner {
                 padding: 20px 0;
-                text-align: center;
             }
-                .post .post-content-wrapper .post-content .banner p {
-                    padding-top: 15px;
-                    color: #ff5a2c;
-                    font-size: 14px;
-                    font-weight: 500px;
-                }
             .post .post-content-wrapper .post-content .post-response-count {
                 padding-top: 20px;
                 display: flex;

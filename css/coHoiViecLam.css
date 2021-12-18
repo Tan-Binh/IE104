@@ -24,6 +24,7 @@ section {
         word-wrap: break-word;
     }
         section .single-item .item-wrapper .item-img {
+            height: 350px;
             overflow: hidden;
         }
             section .single-item .item-wrapper .item-img img {

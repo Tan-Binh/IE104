@@ -2,7 +2,7 @@ header .header-top {
     height: 55px;
     background: url(../images/shape_top.png) repeat center fixed;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
 }
     header .header-top .contact-info {
